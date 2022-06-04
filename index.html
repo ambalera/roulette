@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rr</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>russian roulette</h1>
+    <span>this is a buggy mess</span>
+    <div id="main">
+        <h3>how many players? (min 2 / max 8)</h3>
+        <input type="number" name="" id="playerInput">
+        <button id="start" onclick="start()">play</button><br>
+        <p id="status"></p>
+    </div>
+    <div id="game" hidden>
+        <div id="output">
+        </div>
+        <br>
+        <div id="controls" hidden>
+            <button onclick="fire()">fire</button>
+            <button onclick="spinfire()">spinfire</button>
+        </div>
+        <button id="restart" onclick="restartGame()" hidden>play again</button>
+    </div>
+</body>
+</html>

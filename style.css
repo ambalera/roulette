@@ -1,0 +1,10 @@
+#output {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+#output span {
+    display: flex;
+    width: 100%;
+}
